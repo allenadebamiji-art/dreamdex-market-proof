@@ -1,0 +1,16 @@
+{
+  "name": "dreamdex-market-proof",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "markets": "tsx src/list-markets.ts"
+  },
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "0.32.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
